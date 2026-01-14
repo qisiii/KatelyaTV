@@ -1,29 +1,19 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "hnzy": {
-      "api": "https://hnzyapi.com/api.php/provide/vod",
-      "name": "火鸟资源",
+    "db": {
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
+      "name": "豆瓣资源",
       "is_adult": false
     },
     "lzzy": {
-      "api": "https://api.liangzizy.com/inc/apijson_vod.php",
-      "name": "量子资源",
+      "api": "https://jszyapi.com/api.php/provide/vod/from/jsyun/at/json",
+      "name": "极速云",
       "is_adult": false
     },
     "ffzy": {
-      "api": "https://ffzyapi.com/api.php/provide/vod",
-      "name": "非凡资源",
-      "is_adult": false
-    },
-    "ykzy": {
-      "api": "https://api.yongjiuzy.cc/provide/vod",
-      "name": "永久资源",
-      "is_adult": false
-    },
-    "bdzy": {
-      "api": "https://api.1080zyku.com/inc/apijson_vod.php",
-      "name": "百度资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
+      "name": "茅台",
       "is_adult": false
     }
   }
