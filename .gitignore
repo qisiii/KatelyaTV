@@ -49,4 +49,4 @@ public/manifest.json
 .edgeone/*
 !.edgeone/project.json
 .tef_dist/*
-  
+/.edgeone/
