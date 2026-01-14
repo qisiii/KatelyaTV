@@ -618,7 +618,11 @@ GET /api/admin/analytics
 - **配置地址**：`https://your-domain.com/api/tvbox?format=json`
 - **详细说明**：查看 [TVBox 配置指南](docs/TVBOX.md)
 
-### 跳过片头片尾
+### 跳过片头片尾if (!process.env.AUTH_PASSWORD) {
+  // 如果没有设置密码，重定向到警告页面
+  const warningUrl = new URL('/warning', request.url);
+  return NextResponse.redirect(warningUrl);
+}
 
 智能跳过片头片尾功能：
 

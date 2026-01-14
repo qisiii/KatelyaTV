@@ -28,6 +28,7 @@ yarn-error.log*
 # local env files
 .env
 # .env*.local
+.nvmrc
 
 # vercel
 .vercel
@@ -43,3 +44,9 @@ sitemap-*.xml
 # generated files
 src/lib/runtime.ts
 public/manifest.json
+# Tencent Cloud EdgeOne
+.env
+.edgeone/*
+!.edgeone/project.json
+.tef_dist/*
+  
